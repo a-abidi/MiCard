@@ -16,6 +16,7 @@
 		4105AAE52508F08000B4CBBF /* AliCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105AAE42508F08000B4CBBF /* AliCardTests.swift */; };
 		4105AAF02508F08100B4CBBF /* AliCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105AAEF2508F08100B4CBBF /* AliCardUITests.swift */; };
 		4105AAFF2508F23D00B4CBBF /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4105AAFE2508F23D00B4CBBF /* Pacifico-Regular.ttf */; };
+		4105AB012508F78000B4CBBF /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105AB002508F78000B4CBBF /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4105AAEF2508F08100B4CBBF /* AliCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliCardUITests.swift; sourceTree = "<group>"; };
 		4105AAF12508F08100B4CBBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4105AAFE2508F23D00B4CBBF /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		4105AB002508F78000B4CBBF /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				4105AAFD2508F22500B4CBBF /* fonts */,
 				4105AACD2508F07C00B4CBBF /* AppDelegate.swift */,
 				4105AACF2508F07C00B4CBBF /* SceneDelegate.swift */,
+				4105AB002508F78000B4CBBF /* InfoView.swift */,
 				4105AAD12508F07C00B4CBBF /* ContentView.swift */,
 				4105AAD32508F08000B4CBBF /* Assets.xcassets */,
 				4105AAD82508F08000B4CBBF /* LaunchScreen.storyboard */,
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4105AB012508F78000B4CBBF /* InfoView.swift in Sources */,
 				4105AACE2508F07C00B4CBBF /* AppDelegate.swift in Sources */,
 				4105AAD02508F07C00B4CBBF /* SceneDelegate.swift in Sources */,
 				4105AAD22508F07C00B4CBBF /* ContentView.swift in Sources */,
