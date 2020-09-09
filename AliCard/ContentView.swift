@@ -28,7 +28,14 @@ struct ContentView: View {
                 Text("Software Engineer")
                     .foregroundColor(.white)
                     .font(.system(size: 25))
-                
+                Divider()
+                RoundedRectangle(cornerRadius: 25)
+                    .fill(Color(.white))
+                    .frame(width: 400, height: 50, alignment: .center)
+                    .overlay(HStack {
+                        Image(systemName: "phone.fill").foregroundColor(.green)
+                        Text("+447577708833")
+                    })
             }
         }
     }
